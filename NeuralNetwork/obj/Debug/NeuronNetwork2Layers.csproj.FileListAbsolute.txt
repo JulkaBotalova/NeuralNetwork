@@ -12,3 +12,17 @@ C:\Users\user\Desktop\МУЧЕБА\7 семестр\Интеллектуальн
 C:\Users\user\Desktop\МУЧЕБА\7 семестр\Интеллектуальные ИСиТ\NeuralNetwork\NeuralNetwork\obj\Debug\NeuronNetwork2Layers.csproj.GenerateResource.Cache
 C:\Users\user\Desktop\МУЧЕБА\7 семестр\Интеллектуальные ИСиТ\NeuralNetwork\NeuralNetwork\obj\Debug\NeuralNetwork.exe
 C:\Users\user\Desktop\МУЧЕБА\7 семестр\Интеллектуальные ИСиТ\NeuralNetwork\NeuralNetwork\obj\Debug\NeuralNetwork.pdb
+Q:\Документы\Учебники\ДЗ\Интеллектуальные системы\Нейронка WPF\NeuralNetwork\bin\Debug\NeuralNetwork.exe.config
+Q:\Документы\Учебники\ДЗ\Интеллектуальные системы\Нейронка WPF\NeuralNetwork\obj\Debug\NeuralNetwork.exe
+Q:\Документы\Учебники\ДЗ\Интеллектуальные системы\Нейронка WPF\NeuralNetwork\obj\Debug\NeuralNetwork.pdb
+Q:\Документы\Учебники\ДЗ\Интеллектуальные системы\Нейронка WPF\NeuralNetwork\bin\Debug\NeuralNetwork.exe
+Q:\Документы\Учебники\ДЗ\Интеллектуальные системы\Нейронка WPF\NeuralNetwork\bin\Debug\NeuralNetwork.pdb
+Q:\Документы\Учебники\ДЗ\Интеллектуальные системы\Нейронка WPF\NeuralNetwork\obj\Debug\NeuronNetwork2Layers.csprojResolveAssemblyReference.cache
+Q:\Документы\Учебники\ДЗ\Интеллектуальные системы\Нейронка WPF\NeuralNetwork\obj\Debug\MainWindow.g.cs
+Q:\Документы\Учебники\ДЗ\Интеллектуальные системы\Нейронка WPF\NeuralNetwork\obj\Debug\App.g.cs
+Q:\Документы\Учебники\ДЗ\Интеллектуальные системы\Нейронка WPF\NeuralNetwork\obj\Debug\NeuralNetwork_MarkupCompile.cache
+Q:\Документы\Учебники\ДЗ\Интеллектуальные системы\Нейронка WPF\NeuralNetwork\obj\Debug\NeuralNetwork_MarkupCompile.lref
+Q:\Документы\Учебники\ДЗ\Интеллектуальные системы\Нейронка WPF\NeuralNetwork\obj\Debug\MainWindow.baml
+Q:\Документы\Учебники\ДЗ\Интеллектуальные системы\Нейронка WPF\NeuralNetwork\obj\Debug\NeuralNetwork.g.resources
+Q:\Документы\Учебники\ДЗ\Интеллектуальные системы\Нейронка WPF\NeuralNetwork\obj\Debug\NeuralNetwork.Properties.Resources.resources
+Q:\Документы\Учебники\ДЗ\Интеллектуальные системы\Нейронка WPF\NeuralNetwork\obj\Debug\NeuronNetwork2Layers.csproj.GenerateResource.Cache
