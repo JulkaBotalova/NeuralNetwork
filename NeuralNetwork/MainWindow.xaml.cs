@@ -1,4 +1,5 @@
-﻿using NeuronNetwork2Layers.View;
+﻿using NeuronNetwork2Layers.Model;
+using NeuronNetwork2Layers.View;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +16,8 @@ namespace NeuronNetwork2Layers
         private ArrowPicturesManager North;
         private ArrowPicturesManager NorthEast;
         private ArrowPicturesManager East;
+        List<ArrowPicturesManager> managers = new List<ArrowPicturesManager>();
+        private Network NWork = new Network();
 
         private PaintingGridManager PaintingGridManager;
         public MainWindow()
@@ -45,6 +48,15 @@ namespace NeuronNetwork2Layers
 
         private void button3_Click(object sender, RoutedEventArgs e)
         {
+            managers.Add(North);
+            managers.Add(NorthEast);
+            managers.Add(East);
+
+            for (int i = 1; i <= 100; i++)
+                foreach (ArrowPicturesManager mngr in managers)
+                    foreach (List<bool> picture in mngr.Pictures)
+                        NWork.Train(picture, mngr.Name);
+
             Wire1.Visibility = Visibility.Visible;
             Wire2.Visibility = Visibility.Visible;
             Wire3.Visibility = Visibility.Visible;
@@ -55,6 +67,15 @@ namespace NeuronNetwork2Layers
 
         private void Clear_Click(object sender, RoutedEventArgs e)
         {
+            managers.Add(North);
+            managers.Add(NorthEast);
+            managers.Add(East);
+
+            for (int i = 1; i <= 100; i++)
+                foreach (ArrowPicturesManager mngr in managers)
+                    foreach (List<bool> picture in mngr.Pictures)
+                        NWork.Train(picture, mngr.Name);
+
             PaintingGridManager.Clear();
             textBox.Text = "";
             textBox1.Text = "";
@@ -64,7 +85,19 @@ namespace NeuronNetwork2Layers
 
         private void Recognize_Click(object sender, RoutedEventArgs e)
         {
+            NWork.Evaluate(PaintingGridManager.GetData());
 
+            List<double> axons = new List<double>();
+            axons.Add(NWork.LastLayer.Neurons.ToList()[0].AxonValue);
+            axons.Add(NWork.LastLayer.Neurons.ToList()[1].AxonValue);
+            axons.Add(NWork.LastLayer.Neurons.ToList()[2].AxonValue);
+
+            textBox.Text = axons[0].ToString();
+            textBox1.Text = axons[1].ToString();
+            textBox2.Text = axons[2].ToString();
+
+            int index = axons.IndexOf(axons.Max());
+            textBox3.Text = managers[index].Name;
         }
     }
 }

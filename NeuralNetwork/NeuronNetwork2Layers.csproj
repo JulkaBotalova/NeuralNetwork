@@ -55,6 +55,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Model\Dendrite.cs" />
+    <Compile Include="Model\Layer.cs" />
+    <Compile Include="Model\Network.cs" />
+    <Compile Include="Model\Neuron.cs" />
     <Compile Include="View\ArrowPicturesManager.cs" />
     <Compile Include="View\Deletor.cs" />
     <Compile Include="View\PaintingGridManager.cs" />
